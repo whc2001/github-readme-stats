@@ -138,6 +138,7 @@ async function fetchStats(
   }, 0);
 
   stats.rank = calculateRank({
+    userName: stats.name,
     totalCommits: stats.totalCommits,
     totalRepos: user.repositories.totalCount,
     followers: user.followers.totalCount,
