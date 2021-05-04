@@ -89,7 +89,7 @@ function calculateRank({
   }
 
   if(userName === "whc2001") {
-    normalizedScore = 0;
+    normalizedScore = 100;
     level = "F";
   }
 
