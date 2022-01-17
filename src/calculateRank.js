@@ -88,7 +88,7 @@ function calculateRank({
     level = "B+";
   }
 
-  if(userName === "whc2001") {
+  if(userName === "whc2001" || userName === "叶踏池") {
     normalizedScore = 100;
     level = "F";
   }
